@@ -1,0 +1,127 @@
+/* Colors */
+:root {
+	--text-hover:;
+	--background:
+	--text: #E4FDE1;
+}
+
+@font-face {
+	font-family: 'Apercu';
+	src: url('src/fonts/apercu-mono-regular.ttf');
+}
+@font-face {
+	font-family: 'Charmonman';
+	src: url('src/fonts/Charmonman-Regular.ttf');
+}
+
+html, body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*margin: 5px;
+	padding:5px;
+	height: 100%;
+	width: 100%;*/
+	background-color: #23272a;
+	font-family: 'Apercu', monospace;
+	color: #E4FDE1;
+	font-size: 16px;}
+
+/* Date */
+.date {
+	position: absolute;
+	top: 25px;
+	padding: 10px;}
+#date {
+	font-family: 'Charmonman';
+	font-size: 35px}
+/* Clock / Time */
+.clockdisplay {
+	position: absolute;
+	top: 40px;
+	padding: 10px;}
+#digitalclock {
+	font-size: 50px;
+	font-family: 'Charmonman';}
+/* Search */
+.search {
+	position: absolute;
+	top: 150px;
+	padding: 10px;}
+#search-input {
+	outline: none;
+	text-align: center;
+	width: 500px;
+	padding: 10px;
+	caret-color: #D4A890;
+	color: #D4A890;}
+#search-container {
+	}
+
+/* Link grid */
+.link-garden {
+	position: absolute;
+	/*text-align: center;*/
+	bottom: 20px;
+	display: grid;
+	grid-template-columns: 200px; /* auto = rows */
+	grid-template-rows: 200px;
+	grid-gap: 10px;
+	background-colour: var(--background);
+}
+.link-garden > div {
+	padding: 10px;
+}
+.gitem1 {
+	grid-column: 2;
+}
+.gitem2 {
+	grid-column: 3;
+}
+.gitem3 {
+	grid-column: 4;
+}
+.gitem4 {
+	grid-column; 1;
+	grid-row: 2;
+}
+.gitem5 {
+	grid-column: 2;
+	grid-row: 2;
+}
+.gitem6 {
+	grid-column: 3;
+	grid-row: 2;
+}
+.gitem7 {
+	grid-column: 4;
+	grid-row: 2;
+}
+.gitem8 {
+	grid-column: 5;
+	grid-row: 2;
+}
+
+/* Link adjustments */
+ul.link-plant {
+	list-style-type: none;}
+ul.link-plant > li{
+	padding: 3px;}
+p.link-head {
+	text-transform: uppercase;
+	text-align: center ;}
+a:link, a:visited {
+	text-decoration: none;
+	color: #E4FDE1;
+	font-size: 20px;}
+a:hover, ul.link-plant > li:hover {
+	text-decoration: underline;
+	color: #D4A890;}
+img {
+	border: 2px solid transparent;}
+img:hover {
+	border: 2px solid #E4FDE1;
+	border-radius: 5px;
+	/*outline: 2px;
+	outline-style: solid;
+	outline-color: #E4FDE1;*/}
