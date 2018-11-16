@@ -1,7 +1,7 @@
 /* 
 To use this script, create a div id="digitalclock"
 <script type="text/javascript" src="js/digitalclock.js"></script>
-place the script above underneath the </body> tag. 
+place the script above the </body> tag. 
 */
 
 function showTime(){
